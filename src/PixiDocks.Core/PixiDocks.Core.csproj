@@ -7,4 +7,12 @@
         <RootNamespace>PixiDocks.Core</RootNamespace>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <NoWarn>1701;1702;8766;8619;8602;8604;8600;8618;8601;0067;8625;8603;8622;8620;0169;0414;8767</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <NoWarn>1701;1702;8766;8619;8602;8604;8600;8618;8601;0067;8625;8603;8622;8620;0169;0414;8767</NoWarn>
+    </PropertyGroup>
+
 </Project>
